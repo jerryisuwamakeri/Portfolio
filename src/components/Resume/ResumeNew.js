@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  "https://https://github.com/jerryisuwamakeri/Portfolio/blob/b28cf0c34fe88e226dac40fe599baff6c1444e7c/src/Assets/Updated%2BResume%2B-%2BMakeri%2BJerry%2BIsuwa.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -46,7 +46,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
-          >
+          >pl
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
